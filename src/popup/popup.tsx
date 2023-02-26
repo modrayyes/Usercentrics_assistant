@@ -124,14 +124,6 @@ function App() {
       <div>
         <h2 id="config-data-input" />
       </div>
-      {/* <script>
-        const div = document.getElementById("container");
-        div.onloaded = function(){
-          const script = document.createElement("script");
-          script.src = "/index.js"
-          div.appendChild(script)
-        }
-      </script> */}
 
       <script></script>
     </div>
