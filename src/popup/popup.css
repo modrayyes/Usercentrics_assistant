@@ -1,0 +1,189 @@
+ body {
+  align-content: center;
+  padding: 10px;
+  min-height: 400px;
+  min-width: 400px;
+  border: solid 5px #fcfbe8;
+  background-image: url(../static/background.jpeg);
+}
+
+
+#header-image {
+  padding: 20px;
+  font-family: Montserrat, montserrat, HelveticaNeue, Helvetica Neue, Helvetica-Neue, helvetica, arial, sans-serif;
+}
+/*
+.row {
+  padding: 5px;
+  margin: 5px;
+}
+
+button,
+#config-data {
+  padding: 5px;
+  width: 60%;
+}
+
+#get-data-layer,
+#get-uc-data,
+#get-scripts,
+#get-consents,
+#get-config,
+#inject-cmp {
+  padding: 5px;
+}*/
+
+#btn-data-layer,
+#btn-consents,
+#btn-scripts,
+#btn-uc-data,
+#btn-inject-cmp {
+  background-color: #157cac;
+  color: rgb(243, 249, 250);
+  border-radius: 12px;
+  border-color: rgb(233, 222, 248);
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+/* #btn-inject-cmp {
+  width: 100px;
+  background-color: #157cac;
+  color: rgb(243, 249, 250);
+  border-color: rgb(233, 222, 248);
+  border-radius: 7px;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 35px;
+}
+
+#get-settingsid {
+  width: 100px;
+  border-color: rgb(233, 222, 248);
+  border-radius: 7px;
+  text-align: center;
+  height: 35px;
+} 
+
+#inject-cmp {
+  margin-left: 5px;
+}
+*/ 
+
+/* Set the background color to light grey */
+/* .bg-light {
+  background-color: #f8f9fa;
+} */
+
+/* Center the header image */
+#header-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Set the width and height of the logo image */
+/* #header-image img {
+  width: 200px;
+  height: 100px;
+} */
+
+/* Center the UC data header */
+#uc-data-header {
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+
+/* Set the margin and padding for the UC data container */
+#uc-data {
+  display: table-row;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+/* Set the font color and background color for the "Config Data" button */
+#btn-uc-data {
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+/* Add hover effect to the "Config Data" button */
+#btn-uc-data:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+
+/* Set the background color and border for the "Scripts" button */
+#btn-scripts {
+  background-color: #f8f9fa;
+  border: 1px solid #6c757d;
+  transition: all 0.3s ease;
+}
+
+/* Add hover effect to the "Scripts" button */
+#btn-scripts:hover {
+  background-color: #e9ecef;
+  cursor: pointer;
+}
+
+/* Set the font color and background color for the "Data Layer" button */
+#btn-data-layer {
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+/* Add hover effect to the "Data Layer" button */
+#btn-data-layer:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+
+/* Set the font color and background color for the "Consents" button */
+#btn-consents {
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+/* Add hover effect to the "Consents" button */
+#btn-consents:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+
+/* Set the padding for the "Config Data" and "Inject CMP" buttons */
+#config-data, #inject-cmp {
+  padding-top: 20px;
+}
+
+/* Set the font size for the "Config Data" input field */
+#config-data-input {
+  font-size: 20px;
+}
+
+/* Set the font color and border for the "Inject CMP" button */
+#btn-inject-cmp {
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+/* Add hover effect to the "Inject CMP" button */
+#btn-inject-cmp:hover {
+  background-color: #1e7e34;
+  cursor: pointer;
+}
+
+/* Set the font color for the button text */
+.btn {
+  color: #212529;
+}
+
